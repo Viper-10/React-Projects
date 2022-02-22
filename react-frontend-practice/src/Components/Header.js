@@ -17,6 +17,9 @@ const Header = () => {
         <li>
           <Link to="/profile">Profile</Link>
         </li>
+        <li>
+          <Link to="/counter">Counter</Link>
+        </li>
       </ul>
     </div>
   );

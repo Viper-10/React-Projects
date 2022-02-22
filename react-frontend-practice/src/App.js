@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import NotFound from "./Pages/NotFound";
 import Profile from "./Pages/Profile";
 import { useState } from "react";
+import Counter from "./Pages/Counter";
 function App() {
   const [login, setLogin] = useState(false);
 
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/counter" element={<Counter />} />
           <Route path="/login" element={<Login />} />
           <Route
             path="/profile"
@@ -25,9 +27,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
-        <button onClick={() => setLogin(!login)}>
+        {/* <button onClick={() => setLogin(!login)}>
           {login ? "logout" : "login"}
-        </button>
+        </button> */}
       </div>
     </BrowserRouter>
   );

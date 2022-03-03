@@ -22,7 +22,7 @@ const Counter = () => {
   }, [counter]);
 
   return (
-    <div>
+    <div className="counter">
       <h1>Counter and Api Calls</h1>
       <div>
         <p>{counter}</p>

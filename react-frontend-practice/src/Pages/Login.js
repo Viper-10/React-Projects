@@ -28,7 +28,7 @@ const Login = () => {
       <Input labelName="Name" onChangeName={onChangeName} />
       <Input type="email" labelName="EmailId" />
       <Input type="password" labelName="Password" />
-      <button type="submit" onClick={onSubmit}>
+      <button type="submit" onClick={onSubmit} className="btn-black">
         Submit
       </button>
     </div>

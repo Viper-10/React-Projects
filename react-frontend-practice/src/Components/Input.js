@@ -5,7 +5,7 @@ import "../App.css";
 
 const Input = (props) => {
   return (
-    <div className="input-group">
+    <div className="form-input">
       <label>{props.labelName} : </label>
       <input type={props.type} required></input>
     </div>

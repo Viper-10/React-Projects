@@ -1,0 +1,26 @@
+.card {
+  min-width: 300px;
+  max-width: 300px;
+  background-color: aqua;
+  position: relative;
+  border-radius: 4px;
+}
+.card:hover {
+  background-color: aquamarine;
+  color: #888;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card-content {
+  padding: 0.75rem 1rem;
+}
+.card-content h2 {
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid white;
+}
+.card-content .hooks-used {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+}
